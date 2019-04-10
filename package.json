@@ -2,9 +2,9 @@
   "name": "nodejs-sample",
   "version": "2.0.0",
   "description": "A sample",
-  "main": "app.js",
+  "main": "main.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node main.js"
   },
   "dependencies": {
     "express": "^4.16.4"
