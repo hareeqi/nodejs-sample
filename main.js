@@ -1,7 +1,7 @@
-var app = require("express")();
+var http = require("http");
 
-app.get("/", function(req, res) {
-  res.send("Sample Node.js App");
-});
+function handle(request, response) {
+  response.end("Hello Node.js Server!");
+}
 
-app.listen(process.env.PORT || 3000);
+http.createServer(handle).listen(process.env.PORT || 3000);
