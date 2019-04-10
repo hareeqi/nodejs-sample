@@ -2,9 +2,9 @@ var http = require("http");
 
 function handle(req, res) {
   res.writeHead(200);
-  req.end("Hello Node.js Server!");
+  res.end("Hello Node.js Server!");
 }
 
 http.createServer(handle).listen(process.env.PORT || 3000);
 
-console.log('server is working')
+console.log("server is working");
