@@ -1,9 +1,9 @@
 {
-  "name": "nodejs-sample",
-  "version": "2.0.0",
-  "description": "A sample",
-  "main": "main.js",
+  "name": "node-Sample-App",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {},
   "scripts": {
-    "start": "node main.js"
+    "start": "node app.js"
   }
 }
